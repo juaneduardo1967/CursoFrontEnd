@@ -1,0 +1,55 @@
+
+*{
+    margin: 10px;;
+    padding: 10px;
+}
+header{
+    background-color: skyblue;
+    height: 100px;
+
+}
+h1{
+    text-align: center;
+}
+nav{
+    background-color: aquamarine;
+    height: 100px;
+    text-align: center;
+    margin: 20px;
+}
+li,a{
+    display:inline;
+    text-decoration:None ;
+}
+footer{
+    background-color: skyblue;
+}
+p{
+    color: blueviolet;
+    font-size: larger;
+}
+#seccion{
+    width: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: aqua;
+    border: 2px black dotted;
+}
+#parrafo{
+    font-size: xx-small;
+}
+#footer{
+    position:fixed;
+    width :100%;
+    bottom: 0;
+    border: 20px;
+}
+.padre{
+    width: 100%;
+    border: 2px black dotted;
+
+}
+.hijo{
+    width: 70%;
+    border: 2px ;
+    border-style: double;
+}
